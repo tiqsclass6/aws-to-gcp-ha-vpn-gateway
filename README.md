@@ -183,6 +183,10 @@ You must update this file with actual interface IPs after tunnel provisioning.
    terraform apply -auto-approve
    ```
 
+    ![terraform-init-fmt-validate.jpg](/Screenshots/terraform-init-fmt-validate.jpg)
+    ![terraform-plan.jpg](/Screenshots/terraform-plan.jpg)
+    ![terraform-apply.jpg](/Screenshots/terraform-apply.jpg)
+
 ---
 
 ## ✅ Post-Deployment Validation
@@ -204,6 +208,8 @@ Use Terraform to destroy the setup:
 ```bash
 terraform destroy -auto-approve
 ```
+
+![terraform-destroy.jpg](/Screenshots/terraform-destroy.jpg)
 
 ---
 
